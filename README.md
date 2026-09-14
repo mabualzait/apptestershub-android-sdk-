@@ -3,7 +3,7 @@
 [![](https://jitpack.io/v/mabualzait/apptestershub-android-sdk-.svg)](https://jitpack.io/#mabualzait/apptestershub-android-sdk-)
 ![Platform](https://img.shields.io/badge/platform-Android-green.svg)
 ![Min SDK](https://img.shields.io/badge/minSdk-21-blue.svg)
-![Target SDK](https://img.shields.io/badge/targetSdk-34-brightgreen.svg)
+![Target SDK](https://img.shields.io/badge/targetSdk-36-brightgreen.svg)
 ![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
 
 Lightweight, secure Android SDK for **[AppTestersHub](https://app-testers.com)** to automate Google Play 14-day closed testing compliance. It tracks authentic 1-minute daily testing sessions, verifies tester identity, securely handles cryptographic HMAC request signing, and automatically captures verification screenshots.
@@ -60,7 +60,7 @@ In your **`app/build.gradle`**:
 
 ```groovy
 dependencies {
-    implementation 'com.github.mabualzait:apptestershub-android-sdk-:1.0.0'
+    implementation 'com.github.mabualzait:apptestershub-android-sdk-:1.0.1'
 }
 ```
 
@@ -68,7 +68,7 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.github.mabualzait:apptestershub-android-sdk-:1.0.0")
+    implementation("com.github.mabualzait:apptestershub-android-sdk-:1.0.1")
 }
 ```
 
