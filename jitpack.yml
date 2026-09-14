@@ -1,0 +1,5 @@
+jdk:
+  - openjdk17
+install:
+  - FILE="-Dfile.encoding=UTF-8"
+  - ./gradlew publishReleasePublicationToMavenLocal

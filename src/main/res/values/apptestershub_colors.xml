@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ath_primary">#4f46e5</color>
+    <color name="ath_primary_dark">#4338ca</color>
+    <color name="ath_secondary">#9333ea</color>
+    <color name="ath_accent">#ec4899</color>
+    <color name="ath_background">#f9fafb</color>
+    <color name="ath_surface">#ffffff</color>
+    <color name="ath_text_primary">#111827</color>
+    <color name="ath_text_secondary">#6b7280</color>
+    <color name="ath_success">#22c55e</color>
+    <color name="ath_error">#ef4444</color>
+    <color name="ath_warning">#f59e0b</color>
+    <color name="ath_gradient_start">#4f46e5</color>
+    <color name="ath_gradient_end">#9333ea</color>
+    <color name="ath_white_80">#CCffffff</color>
+    <color name="ath_overlay">#80ffffff</color>
+    <color name="ath_white">#ffffff</color>
+</resources>

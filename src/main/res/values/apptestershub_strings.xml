@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ath_welcome_title">Welcome to AppTestersHub</string>
+    <string name="ath_welcome_subtitle">Enter your registered email to start testing</string>
+    <string name="ath_email_hint">your-email@example.com</string>
+    <string name="ath_start_testing">Start Testing</string>
+    <string name="ath_cancel">Cancel</string>
+    <string name="ath_verifying">Verifying...</string>
+    <string name="ath_invalid_email">Please enter a valid email</string>
+    <string name="ath_verification_failed">Verification failed. Try again.</string>
+</resources>
