@@ -60,7 +60,7 @@ In your **`app/build.gradle`**:
 
 ```groovy
 dependencies {
-    implementation 'com.github.mabualzait:apptestershub-android-sdk-:v1.0.0'
+    implementation 'com.github.mabualzait:apptestershub-android-sdk-:1.0.0'
 }
 ```
 
@@ -68,7 +68,7 @@ dependencies {
 
 ```kotlin
 dependencies {
-    implementation("com.github.mabualzait:apptestershub-android-sdk-:v1.0.0")
+    implementation("com.github.mabualzait:apptestershub-android-sdk-:1.0.0")
 }
 ```
 
