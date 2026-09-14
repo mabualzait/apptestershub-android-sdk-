@@ -59,7 +59,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.mabualzait'
                 artifactId = 'apptestershub-android-sdk-'
-                version = '1.0.1'
+                version = '1.0.2'
             }
         }
     }

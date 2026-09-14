@@ -55,7 +55,7 @@ public class AppTestersHubSDK {
      * 
      * @param context Application context
      * @param appId Your app ID from AppTestersHub
-     * @param baseUrl Custom base URL (optional, defaults to https://apptestershub.com)
+     * @param baseUrl Custom base URL (optional, defaults to https://app-testers.com)
      */
     public static void initialize(@NonNull Context context, @NonNull String appId, @Nullable String baseUrl) {
         if (initialized) {
@@ -113,7 +113,7 @@ public class AppTestersHubSDK {
     private AppTestersHubSDK(Context context, String appId, String baseUrl) {
         this.applicationContext = context;
         this.appId = appId;
-        this.baseUrl = baseUrl != null ? baseUrl : "https://apptestershub.com";
+        this.baseUrl = baseUrl != null ? baseUrl : "https://app-testers.com";
         this.configuration = SDKConfiguration.defaultConfig();
         
         initializeComponents();
@@ -122,7 +122,7 @@ public class AppTestersHubSDK {
     private AppTestersHubSDK(Context context, String appId, SDKConfiguration configuration) {
         this.applicationContext = context;
         this.appId = appId;
-        this.baseUrl = configuration.getBaseUrl() != null ? configuration.getBaseUrl() : "https://apptestershub.com";
+        this.baseUrl = configuration.getBaseUrl() != null ? configuration.getBaseUrl() : "https://app-testers.com";
         this.configuration = configuration;
         
         initializeComponents();

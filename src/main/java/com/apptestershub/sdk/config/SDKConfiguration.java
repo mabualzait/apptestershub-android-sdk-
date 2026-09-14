@@ -25,7 +25,7 @@ public class SDKConfiguration {
      */
     public static SDKConfiguration defaultConfig() {
         return new Builder()
-            .setBaseUrl("https://apptestershub.com")
+            .setBaseUrl("https://app-testers.com")
             .setDebugMode(false)
             .setUploadRetryCount(3)
             .setStatusCheckIntervalHours(24)
@@ -64,7 +64,7 @@ public class SDKConfiguration {
     }
     
     public static class Builder {
-        private String baseUrl = "https://apptestershub.com";
+        private String baseUrl = "https://app-testers.com";
         private boolean debugMode = false;
         private int uploadRetryCount = 3;
         private int statusCheckIntervalHours = 24;
